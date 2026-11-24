@@ -7,7 +7,7 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container">
-          <Link className="navbar-brand" to="/proudcts">
+          <Link className="navbar-brand" to="/">
             CartApp
           </Link>
           <button
@@ -23,15 +23,6 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/proudcts"
-                >
-                  Proudcts
-                </Link>
-              </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/Cart">
                   Cart-{cart.length}
