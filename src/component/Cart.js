@@ -11,7 +11,7 @@ function Cart() {
   return (
     <>
       <h2 className="Total">Total cost : {total.toFixed(2)}</h2>
-      <table className="table table-striped">
+      <table className="table table-striped p-5">
         <thead>
           <tr>
             <th>Id</th>
