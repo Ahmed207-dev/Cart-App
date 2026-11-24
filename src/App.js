@@ -1,4 +1,4 @@
-import "./App.css";
+
 import Cart from "./component/Cart";
 import Navbar from "./component/Navbar";
 import Proudcts from "./component/Proudcts";
