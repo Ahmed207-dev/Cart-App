@@ -10,7 +10,7 @@ function Proudcts() {
     dispatch(fetchitem());
   }, [dispatch]);
   return (
-    <div className="container p-2 m-2">
+    <div className="container p-1">
       <div className="row">
         {proudcts.map((proudct) => (
           <div key={proudct.id} className="col-3">
