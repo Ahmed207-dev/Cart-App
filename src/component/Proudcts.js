@@ -9,9 +9,8 @@ function Proudcts() {
   useEffect(() => {
     dispatch(fetchitem());
   }, [dispatch]);
-  console.log(proudcts);
   return (
-    <div className="container">
+    <div className="container p-2 m-2">
       <div className="row">
         {proudcts.map((proudct) => (
           <div key={proudct.id} className="col-3">
